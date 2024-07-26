@@ -14,7 +14,19 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'WhiteLabelSampleApp' do
+['MainFlavor', 'BasicFlavor'].each do |flavor|
+  target flavor do
+    config = use_native_modules!
+  
+    use_react_native!(
+      :path => config[:reactNativePath],
+      # An absolute path to your application root.
+      :app_path => "#{Pod::Config.instance.installation_root}/.."
+    )  
+  end
+end
+
+target 'WhiteLabelSampleAppTests' do
   config = use_native_modules!
 
   use_react_native!(
@@ -22,19 +34,16 @@ target 'WhiteLabelSampleApp' do
     # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
+  # Pods for testing
+end
 
-  target 'WhiteLabelSampleAppTests' do
-    inherit! :complete
-    # Pods for testing
-  end
-
-  post_install do |installer|
-    # https://github.com/facebook/react-native/blob/main/packages/react-native/scripts/react_native_pods.rb#L197-L202
-    react_native_post_install(
-      installer,
-      config[:reactNativePath],
-      :mac_catalyst_enabled => false,
-      # :ccache_enabled => true
-    )
-  end
+post_install do |installer|
+  config = use_native_modules!
+  # https://github.com/facebook/react-native/blob/main/packages/react-native/scripts/react_native_pods.rb#L197-L202
+  react_native_post_install(
+    installer,
+    config[:reactNativePath],
+    :mac_catalyst_enabled => false,
+    # :ccache_enabled => true
+  )
 end

@@ -8,18 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* WhiteLabelSampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WhiteLabelSampleAppTests.m */; };
-		7699B88040F8A987B510C191 /* libPods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.a */; };
 		83702D112C53B27500D703D2 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		83702D122C53B27500D703D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		83702D132C53B27500D703D2 /* WhiteLabelPropertiesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83702D092C53AED200D703D2 /* WhiteLabelPropertiesHandler.swift */; };
-		83702D152C53B27500D703D2 /* libPods-WhiteLabelSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-WhiteLabelSampleApp.a */; };
 		83702D172C53B27500D703D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		83702D182C53B27500D703D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		83702D192C53B27500D703D2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AEF0A83BA2565E05ACE6FE44 /* PrivacyInfo.xcprivacy */; };
 		83702D252C53B28E00D703D2 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		83702D262C53B28E00D703D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		83702D272C53B28E00D703D2 /* WhiteLabelPropertiesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83702D092C53AED200D703D2 /* WhiteLabelPropertiesHandler.swift */; };
-		83702D292C53B28E00D703D2 /* libPods-WhiteLabelSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-WhiteLabelSampleApp.a */; };
 		83702D2B2C53B28E00D703D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		83702D2C2C53B28E00D703D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		83702D2D2C53B28E00D703D2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AEF0A83BA2565E05ACE6FE44 /* PrivacyInfo.xcprivacy */; };
@@ -27,6 +24,9 @@
 		83702D382C53B36F00D703D2 /* BasicFlavor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83702D352C53B28E00D703D2 /* BasicFlavor-Info.plist */; };
 		83702D392C53B37300D703D2 /* MainFlavor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83702D212C53B27500D703D2 /* MainFlavor-Info.plist */; };
 		83702D3B2C53B39800D703D2 /* com.whitelabelsampleapp.main.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83702D3A2C53B39800D703D2 /* com.whitelabelsampleapp.main.plist */; };
+		873DEEBF0D656FDAFC779B74 /* libPods-WhiteLabelSampleAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C872E53CF8F14BC1BDC1CD5 /* libPods-WhiteLabelSampleAppTests.a */; };
+		C7D4AEEF38397C754CDD12F5 /* libPods-MainFlavor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F31764084FE47B2B31A81E /* libPods-MainFlavor.a */; };
+		F8E4D0B24DBD4A86AC0776B1 /* libPods-BasicFlavor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 896887F763F288BACEAC5AB4 /* libPods-BasicFlavor.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,11 +38,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WhiteLabelSampleApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WhiteLabelSampleApp/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = WhiteLabelSampleApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F97C295DC7A3CB22AD45A1 /* Pods-WhiteLabelSampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelSampleAppTests.debug.xcconfig"; path = "Target Support Files/Pods-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28F31764084FE47B2B31A81E /* libPods-MainFlavor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MainFlavor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C6424409E003AAFDB777C3 /* Pods-BasicFlavor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFlavor.release.xcconfig"; path = "Target Support Files/Pods-BasicFlavor/Pods-BasicFlavor.release.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-WhiteLabelSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-WhiteLabelSampleApp/Pods-WhiteLabelSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		44413021EB92289214912BA3 /* Pods-BasicFlavor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFlavor.debug.xcconfig"; path = "Target Support Files/Pods-BasicFlavor/Pods-BasicFlavor.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-WhiteLabelSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelSampleApp.release.xcconfig"; path = "Target Support Files/Pods-WhiteLabelSampleApp/Pods-WhiteLabelSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.debug.xcconfig"; path = "Target Support Files/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-WhiteLabelSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhiteLabelSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C872E53CF8F14BC1BDC1CD5 /* libPods-WhiteLabelSampleAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhiteLabelSampleAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = WhiteLabelSampleApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83702D082C53AED100D703D2 /* WhiteLabelSampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhiteLabelSampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		83702D092C53AED200D703D2 /* WhiteLabelPropertiesHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WhiteLabelPropertiesHandler.swift; path = WhiteLabelSampleApp/WhiteLabelPropertiesHandler.swift; sourceTree = "<group>"; };
@@ -52,8 +55,12 @@
 		83702D352C53B28E00D703D2 /* BasicFlavor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BasicFlavor-Info.plist"; path = "/Users/mateuszmedrek/work/rn/WhiteLabelSampleApp/ios/Resources/BasicFlavor/BasicFlavor-Info.plist"; sourceTree = "<absolute>"; };
 		83702D362C53B36900D703D2 /* com.whitelabelsampleapp.basic.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = com.whitelabelsampleapp.basic.plist; sourceTree = "<group>"; };
 		83702D3A2C53B39800D703D2 /* com.whitelabelsampleapp.main.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = com.whitelabelsampleapp.main.plist; sourceTree = "<group>"; };
+		896887F763F288BACEAC5AB4 /* libPods-BasicFlavor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicFlavor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.release.xcconfig"; path = "Target Support Files/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A3AECDFC1CDFF3CA755DE7E7 /* Pods-MainFlavor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainFlavor.release.xcconfig"; path = "Target Support Files/Pods-MainFlavor/Pods-MainFlavor.release.xcconfig"; sourceTree = "<group>"; };
 		AEF0A83BA2565E05ACE6FE44 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = WhiteLabelSampleApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		DC3FC9369F5FE3F0343306EF /* Pods-MainFlavor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainFlavor.debug.xcconfig"; path = "Target Support Files/Pods-MainFlavor/Pods-MainFlavor.debug.xcconfig"; sourceTree = "<group>"; };
+		E1B3A37782BAC0C91D8EAE44 /* Pods-WhiteLabelSampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelSampleAppTests.release.xcconfig"; path = "Target Support Files/Pods-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -62,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.a in Frameworks */,
+				873DEEBF0D656FDAFC779B74 /* libPods-WhiteLabelSampleAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83702D152C53B27500D703D2 /* libPods-WhiteLabelSampleApp.a in Frameworks */,
+				C7D4AEEF38397C754CDD12F5 /* libPods-MainFlavor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83702D292C53B28E00D703D2 /* libPods-WhiteLabelSampleApp.a in Frameworks */,
+				F8E4D0B24DBD4A86AC0776B1 /* libPods-BasicFlavor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,8 +129,9 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-WhiteLabelSampleApp.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.a */,
+				896887F763F288BACEAC5AB4 /* libPods-BasicFlavor.a */,
+				28F31764084FE47B2B31A81E /* libPods-MainFlavor.a */,
+				6C872E53CF8F14BC1BDC1CD5 /* libPods-WhiteLabelSampleAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -195,6 +203,12 @@
 				5709B34CF0A7D63546082F79 /* Pods-WhiteLabelSampleApp.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.release.xcconfig */,
+				44413021EB92289214912BA3 /* Pods-BasicFlavor.debug.xcconfig */,
+				33C6424409E003AAFDB777C3 /* Pods-BasicFlavor.release.xcconfig */,
+				DC3FC9369F5FE3F0343306EF /* Pods-MainFlavor.debug.xcconfig */,
+				A3AECDFC1CDFF3CA755DE7E7 /* Pods-MainFlavor.release.xcconfig */,
+				24F97C295DC7A3CB22AD45A1 /* Pods-WhiteLabelSampleAppTests.debug.xcconfig */,
+				E1B3A37782BAC0C91D8EAE44 /* Pods-WhiteLabelSampleAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -348,7 +362,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WhiteLabelSampleApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MainFlavor-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -377,15 +391,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp/Pods-WhiteLabelSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MainFlavor/Pods-MainFlavor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp/Pods-WhiteLabelSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MainFlavor/Pods-MainFlavor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp/Pods-WhiteLabelSampleApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MainFlavor/Pods-MainFlavor-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		83702D1C2C53B27500D703D2 /* [CP] Copy Pods Resources */ = {
@@ -394,15 +408,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp/Pods-WhiteLabelSampleApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MainFlavor/Pods-MainFlavor-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp/Pods-WhiteLabelSampleApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MainFlavor/Pods-MainFlavor-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp/Pods-WhiteLabelSampleApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MainFlavor/Pods-MainFlavor-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		83702D232C53B28E00D703D2 /* [CP] Check Pods Manifest.lock */ = {
@@ -420,7 +434,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WhiteLabelSampleApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BasicFlavor-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -449,15 +463,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp/Pods-WhiteLabelSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BasicFlavor/Pods-BasicFlavor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp/Pods-WhiteLabelSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BasicFlavor/Pods-BasicFlavor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp/Pods-WhiteLabelSampleApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasicFlavor/Pods-BasicFlavor-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		83702D302C53B28E00D703D2 /* [CP] Copy Pods Resources */ = {
@@ -466,15 +480,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp/Pods-WhiteLabelSampleApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BasicFlavor/Pods-BasicFlavor-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp/Pods-WhiteLabelSampleApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BasicFlavor/Pods-BasicFlavor-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp/Pods-WhiteLabelSampleApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasicFlavor/Pods-BasicFlavor-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -492,7 +506,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WhiteLabelSampleAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -505,15 +519,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -522,15 +536,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -569,7 +583,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.debug.xcconfig */;
+			baseConfigurationReference = 24F97C295DC7A3CB22AD45A1 /* Pods-WhiteLabelSampleAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -597,7 +611,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.release.xcconfig */;
+			baseConfigurationReference = E1B3A37782BAC0C91D8EAE44 /* Pods-WhiteLabelSampleAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -622,7 +636,7 @@
 		};
 		83702D1E2C53B27500D703D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-WhiteLabelSampleApp.debug.xcconfig */;
+			baseConfigurationReference = DC3FC9369F5FE3F0343306EF /* Pods-MainFlavor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -651,7 +665,7 @@
 		};
 		83702D1F2C53B27500D703D2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-WhiteLabelSampleApp.release.xcconfig */;
+			baseConfigurationReference = A3AECDFC1CDFF3CA755DE7E7 /* Pods-MainFlavor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -678,7 +692,7 @@
 		};
 		83702D322C53B28E00D703D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-WhiteLabelSampleApp.debug.xcconfig */;
+			baseConfigurationReference = 44413021EB92289214912BA3 /* Pods-BasicFlavor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -707,7 +721,7 @@
 		};
 		83702D332C53B28E00D703D2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-WhiteLabelSampleApp.release.xcconfig */;
+			baseConfigurationReference = 33C6424409E003AAFDB777C3 /* Pods-BasicFlavor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -805,7 +819,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -877,7 +894,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

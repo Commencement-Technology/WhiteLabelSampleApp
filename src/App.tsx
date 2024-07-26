@@ -1,6 +1,13 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import type { FunctionComponent } from 'react';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+
+const AwesomeFeature = React.lazy(
+  () => import(/* webpackChunkName: "awesome" */ './AwesomeFeature'),
+);
+const BasicFeature = React.lazy(
+  () => import(/* webpackChunkName: "basic" */ './BasicFeature'),
+);
 
 interface Props {
   FLAVOR_COLOR: string;
@@ -19,7 +26,9 @@ const App: FunctionComponent<Props> = ({
         <View accessible role="heading">
           <Text style={styles.header}>{FLAVOR_NAME}</Text>
         </View>
-        {HAS_AWESOME_FEATURE ? <Text>Awesome</Text> : null}
+        <Suspense fallback={<Text style={styles.loader}>Loading...</Text>}>
+          {HAS_AWESOME_FEATURE ? <AwesomeFeature /> : <BasicFeature />}
+        </Suspense>
       </View>
     </SafeAreaView>
   );
@@ -36,6 +45,10 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 36,
     fontWeight: 'bold',
+  },
+  loader: {
+    color: 'white',
+    fontSize: 18,
   },
   safeArea: {
     alignSelf: 'stretch',
