@@ -11,19 +11,21 @@
 		83702D112C53B27500D703D2 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		83702D122C53B27500D703D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		83702D132C53B27500D703D2 /* WhiteLabelPropertiesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83702D092C53AED200D703D2 /* WhiteLabelPropertiesHandler.swift */; };
-		83702D172C53B27500D703D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		83702D182C53B27500D703D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		83702D192C53B27500D703D2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AEF0A83BA2565E05ACE6FE44 /* PrivacyInfo.xcprivacy */; };
 		83702D252C53B28E00D703D2 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		83702D262C53B28E00D703D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		83702D272C53B28E00D703D2 /* WhiteLabelPropertiesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83702D092C53AED200D703D2 /* WhiteLabelPropertiesHandler.swift */; };
-		83702D2B2C53B28E00D703D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		83702D2C2C53B28E00D703D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		83702D2D2C53B28E00D703D2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AEF0A83BA2565E05ACE6FE44 /* PrivacyInfo.xcprivacy */; };
 		83702D372C53B36900D703D2 /* com.whitelabelsampleapp.basic.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83702D362C53B36900D703D2 /* com.whitelabelsampleapp.basic.plist */; };
 		83702D382C53B36F00D703D2 /* BasicFlavor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83702D352C53B28E00D703D2 /* BasicFlavor-Info.plist */; };
 		83702D392C53B37300D703D2 /* MainFlavor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83702D212C53B27500D703D2 /* MainFlavor-Info.plist */; };
 		83702D3B2C53B39800D703D2 /* com.whitelabelsampleapp.main.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83702D3A2C53B39800D703D2 /* com.whitelabelsampleapp.main.plist */; };
+		83702D3D2C53E08400D703D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83702D3C2C53E08400D703D2 /* Assets.xcassets */; };
+		83702D3F2C53E09600D703D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83702D3E2C53E09600D703D2 /* Assets.xcassets */; };
+		83702D412C53E14A00D703D2 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83702D402C53E14A00D703D2 /* Splash.storyboard */; };
+		83702D432C53E1F400D703D2 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83702D422C53E1F400D703D2 /* Splash.storyboard */; };
 		873DEEBF0D656FDAFC779B74 /* libPods-WhiteLabelSampleAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C872E53CF8F14BC1BDC1CD5 /* libPods-WhiteLabelSampleAppTests.a */; };
 		C7D4AEEF38397C754CDD12F5 /* libPods-MainFlavor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F31764084FE47B2B31A81E /* libPods-MainFlavor.a */; };
 		F8E4D0B24DBD4A86AC0776B1 /* libPods-BasicFlavor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 896887F763F288BACEAC5AB4 /* libPods-BasicFlavor.a */; };
@@ -46,7 +48,6 @@
 		5709B34CF0A7D63546082F79 /* Pods-WhiteLabelSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelSampleApp.release.xcconfig"; path = "Target Support Files/Pods-WhiteLabelSampleApp/Pods-WhiteLabelSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.debug.xcconfig"; path = "Target Support Files/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6C872E53CF8F14BC1BDC1CD5 /* libPods-WhiteLabelSampleAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhiteLabelSampleAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = WhiteLabelSampleApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83702D082C53AED100D703D2 /* WhiteLabelSampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhiteLabelSampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		83702D092C53AED200D703D2 /* WhiteLabelPropertiesHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WhiteLabelPropertiesHandler.swift; path = WhiteLabelSampleApp/WhiteLabelPropertiesHandler.swift; sourceTree = "<group>"; };
 		83702D202C53B27500D703D2 /* MainFlavor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainFlavor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +56,10 @@
 		83702D352C53B28E00D703D2 /* BasicFlavor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BasicFlavor-Info.plist"; path = "/Users/mateuszmedrek/work/rn/WhiteLabelSampleApp/ios/Resources/BasicFlavor/BasicFlavor-Info.plist"; sourceTree = "<absolute>"; };
 		83702D362C53B36900D703D2 /* com.whitelabelsampleapp.basic.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = com.whitelabelsampleapp.basic.plist; sourceTree = "<group>"; };
 		83702D3A2C53B39800D703D2 /* com.whitelabelsampleapp.main.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = com.whitelabelsampleapp.main.plist; sourceTree = "<group>"; };
+		83702D3C2C53E08400D703D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83702D3E2C53E09600D703D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83702D402C53E14A00D703D2 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		83702D422C53E1F400D703D2 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
 		896887F763F288BACEAC5AB4 /* libPods-BasicFlavor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicFlavor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.release.xcconfig"; path = "Target Support Files/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests/Pods-WhiteLabelSampleApp-WhiteLabelSampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		A3AECDFC1CDFF3CA755DE7E7 /* Pods-MainFlavor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainFlavor.release.xcconfig"; path = "Target Support Files/Pods-MainFlavor/Pods-MainFlavor.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,7 +120,6 @@
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 				AEF0A83BA2565E05ACE6FE44 /* PrivacyInfo.xcprivacy */,
@@ -157,6 +161,8 @@
 			children = (
 				83702D212C53B27500D703D2 /* MainFlavor-Info.plist */,
 				83702D3A2C53B39800D703D2 /* com.whitelabelsampleapp.main.plist */,
+				83702D3E2C53E09600D703D2 /* Assets.xcassets */,
+				83702D422C53E1F400D703D2 /* Splash.storyboard */,
 			);
 			path = MainFlavor;
 			sourceTree = "<group>";
@@ -166,6 +172,8 @@
 			children = (
 				83702D352C53B28E00D703D2 /* BasicFlavor-Info.plist */,
 				83702D362C53B36900D703D2 /* com.whitelabelsampleapp.basic.plist */,
+				83702D3C2C53E08400D703D2 /* Assets.xcassets */,
+				83702D402C53E14A00D703D2 /* Splash.storyboard */,
 			);
 			path = BasicFlavor;
 			sourceTree = "<group>";
@@ -324,11 +332,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83702D172C53B27500D703D2 /* LaunchScreen.storyboard in Resources */,
 				83702D3B2C53B39800D703D2 /* com.whitelabelsampleapp.main.plist in Resources */,
 				83702D182C53B27500D703D2 /* Images.xcassets in Resources */,
 				83702D192C53B27500D703D2 /* PrivacyInfo.xcprivacy in Resources */,
+				83702D3F2C53E09600D703D2 /* Assets.xcassets in Resources */,
 				83702D392C53B37300D703D2 /* MainFlavor-Info.plist in Resources */,
+				83702D432C53E1F400D703D2 /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,11 +345,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83702D2B2C53B28E00D703D2 /* LaunchScreen.storyboard in Resources */,
 				83702D2C2C53B28E00D703D2 /* Images.xcassets in Resources */,
 				83702D382C53B36F00D703D2 /* BasicFlavor-Info.plist in Resources */,
 				83702D372C53B36900D703D2 /* com.whitelabelsampleapp.basic.plist in Resources */,
+				83702D3D2C53E08400D703D2 /* Assets.xcassets in Resources */,
 				83702D2D2C53B28E00D703D2 /* PrivacyInfo.xcprivacy in Resources */,
+				83702D412C53E14A00D703D2 /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -819,10 +829,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -894,10 +901,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
