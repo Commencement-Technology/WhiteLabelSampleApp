@@ -1,11 +1,18 @@
 package com.whitelabelsampleapp
 
+import android.os.Bundle
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.fabricEnabled
 import com.facebook.react.defaults.DefaultReactActivityDelegate
 
 class MainActivity : ReactActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        installSplashScreen()
+
+        super.onCreate(savedInstanceState)
+    }
 
   /**
    * Returns the name of the main component registered from JavaScript. This is used to schedule
@@ -18,5 +25,16 @@ class MainActivity : ReactActivity() {
    * which allows you to enable New Architecture with a single boolean flags [fabricEnabled]
    */
   override fun createReactActivityDelegate(): ReactActivityDelegate =
-      DefaultReactActivityDelegate(this, mainComponentName, fabricEnabled)
+        object : DefaultReactActivityDelegate(this, mainComponentName, fabricEnabled) {
+              override fun getLaunchOptions(): Bundle {
+                  return Bundle().apply {
+                       putString("FLAVOR_NAME", this@MainActivity.getString(R.string.FLAVOR_NAME))
+                       putString("FLAVOR_COLOR", this@MainActivity.getString(R.string.FLAVOR_COLOR))
+                       putBoolean(
+                           "HAS_AWESOME_FEATURE",
+                           this@MainActivity.getString(R.string.HAS_AWESOME_FEATURE).toBoolean()
+                       )
+                  }
+              }
+        }
 }

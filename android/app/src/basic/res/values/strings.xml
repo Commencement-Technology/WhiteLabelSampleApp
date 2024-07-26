@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Basic Flavor</string>
+    <string name="FLAVOR_NAME">BASIC</string>
+    <string name="FLAVOR_COLOR">#424839</string>
+    <string name="HAS_AWESOME_FEATURE">false</string>
+</resources>
